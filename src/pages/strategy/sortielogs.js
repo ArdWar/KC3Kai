@@ -492,6 +492,7 @@
 								if(eship > -1){
 									$(".node_eship_"+(index+1)+" img", nodeBox).attr("src", KC3Meta.abyssIcon( eship ) );
 									$(".node_eship_"+(index+1), nodeBox).attr("title", KC3Meta.abyssShipName( eship) );
+									$(".node_eship_"+(index+1), nodeBox).addClass( KC3Meta.abyssShipBorderClass( eship) );
 									$(".node_eship_"+(index+1), nodeBox).show();
 								}
 							});
